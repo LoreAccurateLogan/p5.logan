@@ -1,0 +1,32 @@
+@font-face {
+  font-family: undertown;
+  src: url("fonts/NorthPoint.ttf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: black;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  color: white;
+  text-align: center;
+  word-wrap: normal;
+  font-family: Arial, sans-serif;;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  font-family: undertown;
+  color: white;
+}

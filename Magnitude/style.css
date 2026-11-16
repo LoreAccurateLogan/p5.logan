@@ -1,0 +1,39 @@
+@font-face {
+    font-family: FHWA;
+    src: url(assets/FHWASeriesEmod2020minus20.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  background-color: black;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+h2 {
+  font-family: FHWA;
+  color: #c9c9c9;
+  text-align: center;
+  word-wrap: normal;
+}
+
+#home {
+  font-family: FHWA;
+  color: #8053b7;
+  text-align: center;
+  word-wrap: normal;
+  justify-content: center;
+  align-items: center;
+}
